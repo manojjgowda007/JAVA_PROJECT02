@@ -1,8 +1,5 @@
 pipeline {
     agent {label 'agent01'}
-	parameters {
-  string defaultValue: 'dev', name: 'ENV'
-                 }
     stages {
         stage('Build') {
             steps {
