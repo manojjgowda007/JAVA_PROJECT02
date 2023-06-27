@@ -16,6 +16,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>hello.war</finalName>
+    <finalName>hello.jar</finalName>
   </build>
 </project>
